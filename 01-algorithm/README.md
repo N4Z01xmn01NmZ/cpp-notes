@@ -19,11 +19,11 @@ REMOVE plastic_cover
 POUR boiling_water
 CLOSE lid
 
-FOR LOOP:
 SET timer TO 300
-BREAK WHEN timer REACH 0
-DECREMENT timer BY 1 EACH second
+WHILE timer MORE_THAN 0:
     PRINT "DO something_productive WHILE waiting!"
+    DELAY_MS 1000
+    DECREMENT timer BY 1
 
 DRAIN water
 EAT
@@ -32,3 +32,19 @@ EAT
 ### Flowchart
 
 Flowchart is a visualisation method using diagrams. 
+
+```flow
+st=>start: Start
+ed=>end: End
+op1=>operation: An Operation
+sub1=>subroutine: A Subroutine
+cond=>condition: Boolean
+Statement
+io=>inputoutput: read n / print n
+para=>parallel: parallel task
+
+st->op1->cond
+cond(true)->io->ed
+cond(false)->sub1
+sub1(right)->op1
+```
