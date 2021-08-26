@@ -31,4 +31,6 @@ EAT
 
 ### Flowchart
 
+Flowchart is a visualisation method using diagrams.
+
 <img src="./res/Code_caGt8RkIEE.png">
