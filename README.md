@@ -1,6 +1,9 @@
 ## Welcome to C++ Notes
 
-aaaa
+## Contents
+
+- [Intro to Algorithm](./01-algorithm)
+- [Compiler Setup](./02-compiler-setup)
 
 ## License
 

@@ -1,4 +1,4 @@
-# Setup Compiler
+# Compiler Setup
 
 ## Install Windows Mingw
 
