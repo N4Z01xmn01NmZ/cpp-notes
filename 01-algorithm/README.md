@@ -31,20 +31,4 @@ EAT
 
 ### Flowchart
 
-Flowchart is a visualisation method using diagrams. 
-
-```flow
-st=>start: Start
-ed=>end: End
-op1=>operation: An Operation
-sub1=>subroutine: A Subroutine
-cond=>condition: Boolean
-Statement
-io=>inputoutput: read n / print n
-para=>parallel: parallel task
-
-st->op1->cond
-cond(true)->io->ed
-cond(false)->sub1
-sub1(right)->op1
-```
+<img src="./res/Code_caGt8RkIEE.png">
