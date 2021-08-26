@@ -4,6 +4,9 @@
 
 - [Intro to Algorithm](./01-algorithm)
 - [Compiler Setup](./02-compiler-setup)
+- [Hello Sekai!](./03-hello)
+- [Variable](./04-variable)
+- [Function](./05-function)
 
 ## License
 
